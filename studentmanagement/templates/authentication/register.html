@@ -2,6 +2,10 @@
 
 {% load static %}
 
+{% block title %}
+REGISTER
+{% endblock %}
+
 {% block content %}
 <div class="row">
     <div class="col-md-4"></div>
@@ -48,7 +52,8 @@
                         />
                         <small class="float-end py-3 showPasswordToggle">SHOW</small>
                     </div>
-                    <input type="submit" value="REGISTER" class="btn col-12 btn-primary submit-btn" />
+                    <input type="submit" value="REGISTER" class="btn col-12 btn-primary submit-btn mb-3" />
+                    Go to LOGIN <a href="{% url 'login' %}">Here</a>
                 </form>
             </div>
         </div>
