@@ -43,6 +43,12 @@ INSTALLED_APPS = [
     'authentication',
     'rest_framework',
     'studentapi',
+    'attendances',
+    'courses',
+    'exams',
+    'grades',
+    'routines',
+    'subjects',
 ]
 
 MIDDLEWARE = [
